@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 3 - Responsive Interactive Page</title>
+  <link rel="stylesheet" href="task3.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Interactive Carousel & Joke Fetcher</h1>
+  </header>
+
+  <section class="carousel-container">
+    <img id="carousel" src="https://cgu-odisha.ac.in/wp-content/uploads/2023/06/Banner_Inventing-The-Future-With-Learning-scaled.jpg" alt="Carousel Image"/>
+    <div class="buttons">
+      <button onclick="prevImage()">Previous</button>
+      <button onclick="nextImage()">Next</button>
+    </div>
+  </section>
+
+  <section class="api-section">
+    <h2>Random Joke Generator</h2>
+    <p id="joke">Click the button to fetch a joke!</p>
+    <button onclick="getJoke()">Get Joke</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Task 3 Web Project</p>
+  </footer>
+
+  <script src="task3.js"></script>
+</body>
+</html>

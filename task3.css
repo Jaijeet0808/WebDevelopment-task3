@@ -1,0 +1,86 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .carousel-container {
+    margin: 2rem auto;
+    max-width: 600px;
+  }
+  
+  .carousel-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .buttons {
+    margin-top: 1rem;
+  }
+  
+  button {
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .api-section {
+    margin: 2rem auto;
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-container,
+    .api-section {
+      padding: 1rem;
+      margin: 1rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-container img {
+      height: auto;
+    }
+  
+    button {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  }
+  
