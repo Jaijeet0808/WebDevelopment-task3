@@ -20,3 +20,7 @@ This is a simple web development project focused on practicing responsive design
 1. Clone the repository:
    ```bash
   [ git clone https://github.com/yourusername/task3-project.git](https://github.com/Jaijeet0808/WebDevelopment-task3/edit/main/README.md)
+
+2. Open task3.html in any modern web browser.
+
+
